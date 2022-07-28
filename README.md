@@ -6,6 +6,7 @@ The data model provides an easier and faster way for users to perform ad hoc dat
  + Azure Databricks is a data analytics platform optimized for the Microsoft Azure cloud services platform. 
  Azure Databricks offers three environments for developing data intensive applications: Databricks SQL, Databricks Data Science & Engineering, 
  and Databricks Machine Learning.
+   - Azure data bricks is a compute service that helps Azure Data Factory to transform data visually
 
 + In the world of big data, raw, unorganized data is often stored in relational, non-relational, and other storage systems. However, on its own, raw data doesn't have the proper context or meaning to provide meaningful insights to analysts, data scientists, or business decision makers.
 
@@ -28,14 +29,17 @@ are known as Tiles. Once you select a tile, you will move to the report page whe
 that visualization was created.
 
 + Let’s understand the different types of data analytics to find how Diagnostic analytics is the correct option here.
- - Descriptive Analytics explains what happened in the past. It provides context to the businesses and helps to understand how it is performing. It can be represented as data visualizations such as charts, graphs, dashboards, and reports.
-- Diagnostic Analytics explains why something has happened in the past. It takes the descriptive data to the next level and provides a deeper analysis of why something
-happened. It is also known as root cause analysis and includes data discovery, data mining, drill down, and drill through.
-- Predictive Analytics predicts what’s most likely to happen in the future. It takes historical data and uses a machine learning model to predict what will happen next.
-- Prescriptive Analytics explains the actions to take to affect the upcoming results. It takes predictive data to the next level and suggests actions to be performed along with the outline of potential implications
+    - Descriptive Analytics explains what happened in the past. It provides context to the businesses and helps to understand how it is performing. It can be     represented as data visualizations such as charts, graphs, dashboards, and reports.
+   - Diagnostic Analytics explains why something has happened in the past. It takes the descriptive data to the next level and provides a deeper analysis of why something
+   happened. It is also known as root cause analysis and includes data discovery, data mining, drill down, and drill through.
+   - Predictive Analytics predicts what’s most likely to happen in the future. It takes historical data and uses a machine learning model to predict what will happen next.
+   - Prescriptive Analytics explains the actions to take to affect the upcoming results. It takes predictive data to the next level and suggests actions to be performed along with the outline of potential implications
 
-+ The Azure production network is segregated into three primary VLANs in a logical
-manner:
-The FC VLAN: It contains supporting systems and trusted Fabric Controllers
-The Main VLAN: It interconnects the untrusted customer nodes
-The Device VLAN: It contains a trusted network and all other infrastructure devices
++ The Azure production network is segregated into three primary VLANs in a logical manner:
+   The FC VLAN: It contains supporting systems and trusted Fabric Controllers
+   The Main VLAN: It interconnects the untrusted customer nodes
+   The Device VLAN: It contains a trusted network and all other infrastructure devices
++ Azure Synapse Analytics is an analytics engine that allows you to ingest, prepare, manage, and serve data for immediate BI and machine learning needs. It combines enterprise data warehousing and big data analytics
++ A data analyst uses various techniques and tools for collating data from different sources to visualize the data in an understandable and relevant format. Data analysts use the visualization tools for the transformation of data into graphical formats that can help in finding useful patterns in the data
++ The Data Definition Language is the ideal choice for creating database schema alongside defining certain constraints. On the other hand, the Data Manipulation
+Language or DML helps update the rows in a table, known as a tuple.
