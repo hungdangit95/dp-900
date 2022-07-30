@@ -49,3 +49,37 @@ applications with a managed community MySQL database service or migrate MySQL wo
 
 Single server is the best option to set up and run a single SQL Server database within no time. It doesn’t work for linked servers
 
+
++ Data stored in Azure Storage Zone-redundant storage (ZRS) is replicated across multiple availability zones
+  Explanation:  Zone-redundant storage (ZRS) - Three synchronous copies in three AZs in the primary region
+ + IaaS (Infrastructure as a Service): Database Administrator is responsible for OS upgrades and patches, Database software and upgrades, scaling of compute & storage, Availability and Durability
+ 
+ + Azure Cosmos DB Table API supports both read replica's and multi region writes , where as Azure Table Storage does NOT.
+ + Azure SQL Database is recommended to minimize operational overheads for running SQL Server in Azure
+ + Archive: Rarely accessed data stored for min. 180 days. Lowest storage cost BUT Highest access cost. Access latency - In hours.
+ + Semi Structured Column-Family Database - Azure Cosmos DB Cassandra API
+ + Advantage: Star schemas are de-normalized and are easier to query
+ + Power BI Report Builder: Standalone tool to author paginated reports
+ + Dashboard: Single page - visualizations from one or more reports. Created using Power BI Service.
+ + Gremlin: Graph. Store complex relationships between data.
+ + Features in Azure SQL Managed Instance NOT provided by Azure SQL Database: Cross-database queries (and transactions) within a single SQL Server instance, Database Mail, Built in SQL Server Agent
+ + You can restrict access to Azure SQL Database (allow only a specific range of IP addresses/virtual network) using server level firewall
+ + Read only database replica help you offload reporting apps and other read workloads (from live OLTP database
+ + In Azure Data Factory, which of these can be used to schedule pipelines? =>  Triggers: Trigger pipeline at a specific times
+ + Azure Databricks: Process data from Azure Blob storage, Azure Data Lake Store, Hadoop storage, flat files, databases, and data warehouses
+ + Azure Synapse Analytics - End-to-end analytics solutions. Data integration + Enterprise data warehouse + Data analytics.
+ + You can pause the SQL pool in Azure Synapse Analytics to reduce costs
+ + ELT (Extract, Load, and Transform): Data is stored before it is transformed. Uses an iterative approach (multiple steps) to process data in target system. Advantage: Does NOT use a separate transformation engine.\
+ + When using Azure Data Factory for batch processing, processed data can be stored in relational databases, NoSql databases or in Azure Blob Storage
+ + Clustered: Data in table is stored in the order of the index key values. Remember: Only one clustered index per table ( Why? - data rows can only be sorted in one way).
+ + Azure Files: File shares for cloud and on-premises. Supports Server Message Block (SMB) and Network File System (NFS) protocols.
+ + Control flow: Orchestrate pipeline activity based on output of another pipeline activity
++ Linked Service: Used to connect to an external source. Connect to different sources like Azure Storage Blob, SQL Databases etc
++ Data Control Language (DCL): Manage permissions and other controls Data Definition Language (DDL): Create and modify structure of database objects. Create:\
++ Create a database or its constituent objects (Table, View, Index etc).
++Predictive analytics: What will happen?. Predict probability based on historical data.
+ Example: What will be the future demand?. Example: Calculate probability of something happening in future
++>Cognitive analytics: Make analytic tools to think like humans.
+ Combine traditional analytics techniques with AI and ML features. 
+Examples - Speech to text (transcription or subtitles), text to speech, 
+Video Analysis, Image Analysis, Semantic Analysis of Text (Analyze reviews)
