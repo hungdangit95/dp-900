@@ -43,3 +43,9 @@ that visualization was created.
 + A data analyst uses various techniques and tools for collating data from different sources to visualize the data in an understandable and relevant format. Data analysts use the visualization tools for the transformation of data into graphical formats that can help in finding useful patterns in the data
 + The Data Definition Language is the ideal choice for creating database schema alongside defining certain constraints. On the other hand, the Data Manipulation
 Language or DML helps update the rows in a table, known as a tuple.
+
+Azure Database for MySQL is the best choice for Azure database in the given case as it delivers high elastic scaling and availability to open-source web and mobile
+applications with a managed community MySQL database service or migrate MySQL workloads to the cloud
+
+Single server is the best option to set up and run a single SQL Server database within no time. It doesn’t work for linked servers
+
