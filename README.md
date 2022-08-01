@@ -83,3 +83,7 @@ Single server is the best option to set up and run a single SQL Server database 
  Combine traditional analytics techniques with AI and ML features. 
 Examples - Speech to text (transcription or subtitles), text to speech, 
 Video Analysis, Image Analysis, Semantic Analysis of Text (Analyze reviews)
++ ARM templates are text files that contain the definitions of resources to deploy, and they are in JSON (JavaScript Object Notation) format
+
++ Which of the following Azure database services has guaranteed 100% compatibility with SQL Server running in your own environment? SQL Server in a VM
+
