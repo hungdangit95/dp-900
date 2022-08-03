@@ -91,4 +91,5 @@ You can use Azure Data Studio to connect to an Azure SQL Database server. You'll
 + Azure Data Studio to create SQL notebook
 +  Cosmos DB, HDInsight are non-relational databases.
 + Azure Synapse Analytics is for data warehousing, not for Online Transaction Processing
++ Azure Files offers native cloud file sharing services based on the SMB protocol.
 
