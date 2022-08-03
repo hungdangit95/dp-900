@@ -86,4 +86,9 @@ Video Analysis, Image Analysis, Semantic Analysis of Text (Analyze reviews)
 + ARM templates are text files that contain the definitions of resources to deploy, and they are in JSON (JavaScript Object Notation) format
 
 + Which of the following Azure database services has guaranteed 100% compatibility with SQL Server running in your own environment? SQL Server in a VM
++ Azure Data Studio is a cross-platform database tool for data professionals using on-premises and cloud data platforms on Windows, macOS, and Linux.
+You can use Azure Data Studio to connect to an Azure SQL Database server. You'll then run Transact-SQL (T-SQL) statements to create and query Azure SQL databases.
++ Azure Data Studio to create SQL notebook
++  Cosmos DB, HDInsight are non-relational databases.
++ Azure Synapse Analytics is for data warehousing, not for Online Transaction Processing
 
